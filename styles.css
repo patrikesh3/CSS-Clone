@@ -3,11 +3,18 @@
     display: flex;
     cursor: pointer;
     font-family: Arial, sans-serif;
-    justify-content: space-between;
     align-items: center;
     background: #f7f7f7;
     text-decoration: none;
     padding: 10px 20px;
+    float: right;
+    word-spacing: 10px;
+    margin-left: 10px;
+}
+.logo{
+    position: relative;
+    margin-right: 400px;
+    cursor: pointer;
 }
 #download{
     background-color: white;
@@ -24,12 +31,12 @@
     color: black;
     text-decoration: none;
       color: white;
-      padding: 10px 20px;
       text-decoration: none;
       border-radius: 5px;
       transition: background-color 0.3s ease;
-}
-#reis:hover{
+        font-weight: 500;
+    }
+    #reis:hover{
     color:blue;
     cursor: pointer;
 }
@@ -69,20 +76,6 @@
     color:blue;
     cursor: pointer;
 }
-.item{
-        list-style: none;
-        position: relative;
-        display: flex;
-        top: right;
-        padding: 0;
-        color: white;
-        text-decoration: none;
-        font-weight: 500;
-}
-.item:hover{
-    color:blue;
-    cursor: pointer;
-}
 .search{
         background-color: #e0f0ff;
         padding: 20px;
@@ -100,3 +93,4 @@
         border: none;
         cursor: pointer;
     }
+
