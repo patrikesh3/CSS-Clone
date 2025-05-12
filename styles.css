@@ -1,0 +1,43 @@
+.top{
+    background-color: white;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    text-decoration: none;
+    margin-left: 0px;
+}
+#download{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 2px;
+    border-color: black;
+    border-radius: 15px;
+    margin-right: 0px;
+}
+#reis{
+    background-color: white;
+    color: black;
+}
+#reis:hover{
+    color:blue;
+    cursor: pointer;
+}
+.item{
+        list-style: none;
+        position: relative;
+        display: flex;
+        top: right;
+        padding: 0;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+}
+.item:hover{
+    color:blue;
+    cursor: pointer;
+}
