@@ -1,14 +1,13 @@
 .top{
-    background-color: white;
     position: relative;
     display: flex;
     cursor: pointer;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
+    align-items: center;
     background: #f7f7f7;
     text-decoration: none;
-    margin-left: 0px;
+    padding: 10px 20px;
 }
 #download{
     background-color: white;
@@ -18,12 +17,55 @@
     border-color: black;
     border-radius: 15px;
     margin-right: 0px;
+    text-decoration: none;
 }
 #reis{
     background-color: white;
     color: black;
+    text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
 }
 #reis:hover{
+    color:blue;
+    cursor: pointer;
+}
+#unter{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#unter:hover{
+    color:blue;
+    cursor: pointer;
+}
+#hil{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#hil:hover{
+    color:blue;
+    cursor: pointer;
+}
+#mei{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#mei:hover{
+    color:blue;
+    cursor: pointer;
+}
+#anme{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#anme:hover{
     color:blue;
     cursor: pointer;
 }
@@ -41,3 +83,20 @@
     color:blue;
     cursor: pointer;
 }
+.search{
+        background-color: #e0f0ff;
+        padding: 20px;
+        text-align: center;
+        float: right;
+    }
+    .search input, .search button {
+        margin: 10px 5px;
+        padding: 10px;
+        font-size: 1em;
+    }
+    .search button {
+        background-color: #003580;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
