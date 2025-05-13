@@ -122,51 +122,50 @@ font-size: 50px;
         position: relative;
         left: 60px;
         bottom: 10px;
-        font-size: 13px;
         font-family: Arial;
     }
     .cli{
         background-color: blue;
     color: white;
     position: relative;
-    bottom: left;
-    
+    bottom: 45px;
+    left: 900px;
     }
     #new{
-font-weight: bold;
-font-size: 500px;
 font-family: Arial;
 position: relative;
 bottom: 150px;
 left:10 px;
     }
     #web{
-        height: 300px;
-        width: 200px;
+        height: 400px;
+        width: 300px;
         position: relative;
         bottom: 150px;
         display: flex;
+        border: 5px;
+        border-radius: 18px;
         
     }
     .nb{
-        height:300px;
-        width: 200px;
+        height:400px;
+        width: 300px;
     }
     .ke{
-        height: 300px;
-        width: 200px;
+        height: 400px;
+        width: 300px;
     }
     .ke{
-        height: 300px;
-        width: 200px;
+        height: 400px;
+        width: 300px;
     }
     .sh{
-        height: 300px;
-        width: 200px;
+        height: 400px;
+        width: 300px;
     }
     .pa{
-        height: 300px;
-        width: 200px;
+        height: 400px;
+        width: 300px;
     }
 
     
