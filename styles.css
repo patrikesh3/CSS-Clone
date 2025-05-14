@@ -1,44 +1,43 @@
-#logo{
-    position: relative;
-    left: 30px;
-    top: 10;
-}
-#mn{
-    border-radius: 50px;
-    padding-left: 5;
-    padding-bottom: 5px;
-    background-color: white;
-}
-.space{
-    word-spacing: 1.5;
-}
-.add{
-    position: relative;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    border: 5px;
-    border-radius: 18;
-    float: right;
-}
-.app{
-    width: 5px;
-    heigth: 5px;
-    position: relative;
-    top: 10px;
-}
-.all{
-    position: relative;
-    display: flex;
-    cursor: pointer;
-    font-family: Arial;
-    float: right;
-    word-spacing: 40;
-    margin: 10px;
-}
-#main:hover{
-    color:blue;
-}
+.right{
+    position: absolute;
+        left: 700px;
+        top: 14px;
+        word-spacing: 10px;
+    }
+    #button{
+        position: absolute;
+        left: 500px;
+        top: 5px;
+    }
+    .app{
+        height: 5px;
+        width: 5px;
+        color:blue;
+    }
+    #your:hover{
+        color: blue;
+    }
+    #help:hover{
+        color:blue
+    }
+    #travel{
+        word-spacing: 1.5px;
+    }
+    #travel:hover{
+        color: blue;
+    }
+    #register{
+        word-spacing: 1.5px;
+    }
+    #register:hover{
+        color: blue;
+    }
+    #my{
+        word-spacing: 1.5px;
+    }
+    #my:hover{
+    color: blue;
+    }        
 #pc{
 position: relative;
 bottom: 400px;
